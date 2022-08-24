@@ -1,0 +1,33 @@
+{
+  "name": "vue2-project",
+  "version": "1.0.0",
+  "description": "Vue2 最佳实践",
+  "scripts": {
+    "vite": "vite",
+    "dev": "vite",
+    "serve": "vite",
+    "preview": "vite preview",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost:1142/GPLer/vue2-project.git"
+  },
+  "author": "GPLer",
+  "license": "GPLv3",
+  "dependencies": {
+    "@gpler/type.js": "^0.0.1",
+    "@vueuse/core": "^9.1.0",
+    "element-ui": "2",
+    "vue": "2",
+    "vue-router": "3",
+    "vuex": "3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "babel-plugin-import": "^1.13.5",
+    "prettier": "^2.7.1",
+    "vite": "^3.0.5",
+    "vue-template-compiler": "^2.7.8"
+  }
+}
